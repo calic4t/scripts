@@ -1,6 +1,6 @@
 function replaceSidebar () {
   //store the new version of the button and the old version
-  let oldElement2 = document.getElementsById("new-project-button")[0];
+  let oldElement2 = document.getElementsByClassName("user-name")[0];
   let newElement2 = oldElement2.cloneNode(true);
   
   
@@ -11,7 +11,7 @@ function replaceSidebar () {
   newElement2.style.border = "none";
   newElement2.style.backgroundColor = "black";
   newElement2.style.width = "auto";
-  newElement2.innerText = "new";
+  newElement2.innerText = "ADMIN";
   
   oldElement2.parentNode.replaceChild(newElement2, oldElement2);
 }
