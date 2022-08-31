@@ -1,6 +1,6 @@
 function replaceSidebar () {
   //store the new version of the button and the old version
-  let oldElement2 = document.getElementsByClassName("main-aside")[0];
+  let oldElement2 = document.getElementsById("new-project-button")[0];
   let newElement2 = oldElement2.cloneNode(true);
   
   
@@ -11,7 +11,7 @@ function replaceSidebar () {
   newElement2.style.border = "none";
   newElement2.style.backgroundColor = "black";
   newElement2.style.width = "auto";
-  newElement2.innerText = "Cool Maths Games Hacks - Calicat_\n\nNo more ads\n\nFree fullscreen";
+  newElement2.innerText = "new";
   
   oldElement2.parentNode.replaceChild(newElement2, oldElement2);
 }
