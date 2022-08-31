@@ -20,7 +20,7 @@ function init () {
   
 }
 
-if (window.location.hostname == "code.digimaker.com.au") {
+if (window.location.hostname == "www.code.digimaker.com.au") {
   init();
 } else {
   
